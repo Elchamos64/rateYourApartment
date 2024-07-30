@@ -1,0 +1,7 @@
+{
+  "name": "rateyourapartment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

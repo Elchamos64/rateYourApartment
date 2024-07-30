@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
   },
   "dependencies": {
+    "@capacitor/app": "6.0.0",
+    "@capacitor/cli": "6.1.1",
+    "@capacitor/core": "6.1.1",
+    "@capacitor/haptics": "6.0.0",
+    "@capacitor/keyboard": "6.0.1",
+    "@capacitor/status-bar": "6.0.0",
+    "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
